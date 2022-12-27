@@ -37,3 +37,7 @@ string[] mainwork(string[] curr, string[] changed)
 
     return exp;
 }
+
+string[] exp = new string[0];
+string[] array1 = mainwork(a, exp);
+Console.WriteLine($"[{string.Join(",", array1)}]");
